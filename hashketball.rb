@@ -211,7 +211,7 @@ def big_shoe_rebounds
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
      shoe_size = player[:shoe]
-     shoe_size.each do |a|
+     shoe_size.map do |a|
     end
         binding.pry 
     end
