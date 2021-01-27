@@ -209,8 +209,7 @@ end
 
 def big_shoe_rebounds
   game_hash.each do |locaiton, team_data|
-    players = team_data[:players]
-    players.each do |player|
+    team_data[:players].each do |player|
     
         binding.pry 
     end
