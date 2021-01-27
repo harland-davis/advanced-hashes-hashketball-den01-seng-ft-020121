@@ -214,9 +214,10 @@ def big_shoe_rebounds
      shoe_size = player[:shoe]
        if shoe_size > largest_shoe
          shoe_size = largest_shoe
- 
+         binding.pry 
+ end 
     end
-        binding.pry 
+ 
     end
   end
 end
