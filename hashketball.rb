@@ -215,7 +215,6 @@ def big_shoe_rebounds
         largest_shoe = player[:shoe]
         binding.pry 
         return player[:rebounds]
-        end
       end
     end
   end
