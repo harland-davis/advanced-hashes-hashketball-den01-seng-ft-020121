@@ -214,6 +214,7 @@ def big_shoe_rebounds
     players.map do |player|
       if player[:shoe] > largest_shoe
         largest_shoe = player[:shoe]
+        binding.pry 
         return player[:rebounds]
       end
     end
